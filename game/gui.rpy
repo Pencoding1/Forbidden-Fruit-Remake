@@ -55,13 +55,13 @@ define gui.interface_text_color = u'#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "/font/SFUBelleRegular.ttf"
+define gui.text_font = "/font/SVN-The Voice Light.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "/font/SFUBelleRegular.ttf"
+define gui.name_text_font = "/font/SVN-Hemi Head.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "/font/SVN-Have Heart 2.ttf"
+define gui.interface_text_font = "/font/SVN-Hemi Head.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 40
@@ -156,7 +156,7 @@ define gui.button_borders = Borders(10, 10, 10, 10)
 define gui.button_tile = True
 
 ## The font used by the button.
-define gui.button_text_font = "/font/SVN-Have Heart 2.ttf"
+define gui.button_text_font = "/font/SVN-Block.ttf"
 
 ## The size of the text used by the button.
 define gui.button_text_size = gui.interface_text_size
