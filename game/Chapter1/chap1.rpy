@@ -16,7 +16,6 @@ label chap1:
     scene bedhop2 with dissolve
     pause (2)
     scene bedhop2 with fade
-    scene bedhop2 with fade
     "???" "Cuối cùng cậu cũng dậy rồi à?"
     main "!!!"
     play music bg3 volume 0.75
