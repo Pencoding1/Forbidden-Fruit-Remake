@@ -145,7 +145,7 @@ define gui.dialogue_text_xalign = 0.0
 ## how buttons are displayed.
 
 ## The width and height of a button, in pixels. If None, Ren'Py computes a size.
-define gui.button_width = 300
+define gui.button_width = 350
 define gui.button_height = 70
 
 ## The borders on each side of the button, in left, top, right, bottom order.
@@ -169,7 +169,7 @@ define gui.button_text_insensitive_color = gui.insensitive_color
 
 ## The horizontal alignment of the button text. (0.0 is left, 0.5 is center, 1.0
 ## is right).
-define gui.button_text_xalign = 0.5
+define gui.button_text_xalign = 0.1
 define gui.button_text_yalign = 1.0
 
 

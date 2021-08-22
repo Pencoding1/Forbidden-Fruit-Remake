@@ -321,12 +321,12 @@ screen navigation():
 
             textbutton _("Màn hình chính") action MainMenu()
 
-        textbutton _("Team") action ShowMenu("about")
-
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
             textbutton _("Hướng dẫn") action ShowMenu("help")
+
+        textbutton _("Team") action ShowMenu("about")
 
         if renpy.variant("pc"):
 
