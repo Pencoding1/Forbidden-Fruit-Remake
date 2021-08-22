@@ -79,7 +79,7 @@ define gui.label_text_size = 50
 define gui.notify_text_size = 48
 
 ## The size of the game's title.
-define gui.title_text_size = 100
+define gui.title_text_size = 75
 
 
 ## Main and Game Menus #########################################################
@@ -149,7 +149,7 @@ define gui.button_width = 400
 define gui.button_height = 100
 
 ## The borders on each side of the button, in left, top, right, bottom order.
-define gui.button_borders = Borders(10, 10, 10, 10)
+define gui.button_borders = Borders(6, 6, 6, 6)
 
 ## If True, the background image will be tiled. If False, the background image
 ## will be linearly scaled.
