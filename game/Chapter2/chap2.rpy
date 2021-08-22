@@ -87,7 +87,7 @@ label chap2:
     "Đột nhiên bóng đèn trên trần nhà đang tắt được bật lên. Lò vi sóng thì tự hoạt động và mấy thiết bị chạy bằng điệng khác nữa."
     "Nhận ra hành động ngu ngốc của mình, tôi chạy đến và đưa tay còn lại ra đỡ lấy lõi năng lượng đang tỏa ra ánh sáng màu xanh khắp căn phòng tối."
     scene bg_house at Shake((0.5, 1.0, 0.5, 1.0), 1.0, dist=4)
-    play sound hearbeat
+    play sound heartbeat
     "Ư..."
     stop music fadeout 1.0
     play sound passing

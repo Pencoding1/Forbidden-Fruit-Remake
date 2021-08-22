@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -253,14 +253,14 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
+            textbutton _("Trở lại") action Rollback()
+            textbutton _("Lịch sử") action ShowMenu('history')
+            textbutton _("Bỏ qua") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("Tự động") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
             textbutton _("Q.Save") action QuickSave()
             textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            textbutton _("Cài Đặt") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -309,7 +309,7 @@ screen navigation():
 
             textbutton _("Lưu") action ShowMenu("save")
 
-        textbutton _("Tiếp tục") action ShowMenu("load")
+        textbutton _("Load") action ShowMenu("load")
 
         textbutton _("Tuỳ chỉnh") action ShowMenu("preferences")
 
@@ -718,7 +718,11 @@ screen preferences():
 
     tag menu
 
-    use game_menu(_("Preferences"), scroll="viewport"):
+<<<<<<< HEAD
+    use game_menu(_("Cài Đặt"), scroll="viewport"):
+=======
+    use game_menu(_("Tuỳ chỉnh"), scroll="viewport"):
+>>>>>>> 73ff750b6b7160180c2502a531f0f8544738a091
 
         vbox:
 
@@ -729,7 +733,7 @@ screen preferences():
 
                     vbox:
                         style_prefix "radio"
-                        label _("Display")
+                        label _("Hiển thị")
                         textbutton _("Window") action Preference("display", "window")
                         textbutton _("Fullscreen") action Preference("display", "fullscreen")
 
@@ -758,25 +762,25 @@ screen preferences():
 
                 vbox:
 
-                    label _("Text Speed")
+                    label _("Tốc độ chữ")
 
                     bar value Preference("text speed")
 
-                    label _("Auto-Forward Time")
+                    label _("Thời gian tự động\nchuyển tiếp ")
 
                     bar value Preference("auto-forward time")
 
                 vbox:
 
                     if config.has_music:
-                        label _("Music Volume")
+                        label _("Nhạc")
 
                         hbox:
                             bar value Preference("music volume")
 
                     if config.has_sound:
 
-                        label _("Sound Volume")
+                        label _("Âm thanh")
 
                         hbox:
                             bar value Preference("sound volume")
@@ -797,7 +801,7 @@ screen preferences():
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing
 
-                        textbutton _("Mute All"):
+                        textbutton _("Tắt âm thanh"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
 
@@ -888,7 +892,7 @@ screen history():
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+    use game_menu(_("Lịch Sử"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
 
         style_prefix "history"
 
@@ -977,7 +981,7 @@ screen help():
 
     default device = "keyboard"
 
-    use game_menu(_("Help"), scroll="viewport"):
+    use game_menu(_("Hướng Dẫn"), scroll="viewport"):
 
         style_prefix "help"
 

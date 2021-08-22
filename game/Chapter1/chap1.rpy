@@ -6,7 +6,7 @@ label chap1:
     show num2 with dissolve
     pause (2)
     scene gcut1 with fade
-    play sound hearbeat
+    play sound heartbeat
     "...."
     scene black with fade
     play sound passing
@@ -61,7 +61,7 @@ label chap1:
     "Bác sĩ Toshihida đột ngột làm vẻ mặt nghiêm trọng. Ông ngập ngừng nói."
     x1 "Có từng gặp cô gái nào không?"
     scene gc2 with fade
-    play sound hearbeat
+    play sound heartbeat
     main "Ư..."
     scene bedhop2
     show char_x1

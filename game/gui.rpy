@@ -23,17 +23,17 @@ init python:
 ## The colors of text in the interface.
 
 ## An accent color used throughout the interface to label and highlight text.
-define gui.accent_color = u'#3abaef'
+define gui.accent_color = u'#78a5c5'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = u'#3abaef'
+define gui.idle_color = u'#78a5c5'
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
 define gui.idle_small_color = u'#aaaaaa'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = u'#ffa800'
+define gui.hover_color = u'#c55444'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
@@ -145,15 +145,15 @@ define gui.dialogue_text_xalign = 0.0
 ## how buttons are displayed.
 
 ## The width and height of a button, in pixels. If None, Ren'Py computes a size.
-define gui.button_width = None
-define gui.button_height = None
+define gui.button_width = 400
+define gui.button_height = 100
 
 ## The borders on each side of the button, in left, top, right, bottom order.
 define gui.button_borders = Borders(10, 10, 10, 10)
 
 ## If True, the background image will be tiled. If False, the background image
 ## will be linearly scaled.
-define gui.button_tile = True
+define gui.button_tile = False
 
 ## The font used by the button.
 define gui.button_text_font = "/font/SVN-Block.ttf"
