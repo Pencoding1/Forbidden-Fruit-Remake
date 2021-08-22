@@ -257,9 +257,9 @@ screen quick_menu():
             textbutton _("Lịch sử") action ShowMenu('history')
             textbutton _("Bỏ qua") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Tự động") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
+            textbutton _("Lưu") action ShowMenu('save')
+            textbutton _("Lưu nhanh") action QuickSave()
+            textbutton _("Tải nhanh") action QuickLoad()
             textbutton _("Cài Đặt") action ShowMenu('preferences')
 
 
@@ -311,7 +311,7 @@ screen navigation():
 
         textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Tuỳ chỉnh") action ShowMenu("preferences")
+        textbutton _("Cài đặt") action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -717,12 +717,8 @@ style slot_button_text:
 screen preferences():
 
     tag menu
-
-<<<<<<< HEAD
+    
     use game_menu(_("Cài Đặt"), scroll="viewport"):
-=======
-    use game_menu(_("Tuỳ chỉnh"), scroll="viewport"):
->>>>>>> 73ff750b6b7160180c2502a531f0f8544738a091
 
         vbox:
 
