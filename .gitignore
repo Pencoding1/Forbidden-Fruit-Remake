@@ -2,7 +2,3 @@
 *.rpyc
 *.rpyb
 *.tmp
-*.json
-game/saves/navigation.json
-*.rpyc
-*.rpyb
