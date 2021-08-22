@@ -64,19 +64,19 @@ define gui.name_text_font = "/font/SVN-Hemi Head.ttf"
 define gui.interface_text_font = "/font/SVN-Hemi Head.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 40
+define gui.text_size = 30
 
 ## The size of character names.
-define gui.name_text_size = 45
+define gui.name_text_size = 40
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 50
+define gui.interface_text_size = 40
 
 ## The size of labels in the game's user interface.
-define gui.label_text_size = 50
+define gui.label_text_size = 40
 
 ## The size of text on the notify screen.
-define gui.notify_text_size = 48
+define gui.notify_text_size = 40
 
 ## The size of the game's title.
 define gui.title_text_size = 75
@@ -145,8 +145,8 @@ define gui.dialogue_text_xalign = 0.0
 ## how buttons are displayed.
 
 ## The width and height of a button, in pixels. If None, Ren'Py computes a size.
-define gui.button_width = 400
-define gui.button_height = 100
+define gui.button_width = 300
+define gui.button_height = 70
 
 ## The borders on each side of the button, in left, top, right, bottom order.
 define gui.button_borders = Borders(6, 6, 6, 6)
