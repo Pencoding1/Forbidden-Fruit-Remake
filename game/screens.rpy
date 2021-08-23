@@ -321,12 +321,12 @@ screen navigation():
 
             textbutton _("Màn hình chính") action MainMenu()
 
-        textbutton _("Team") action ShowMenu("about")
-
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
             textbutton _("Hướng dẫn") action ShowMenu("help")
+
+        textbutton _("Team") action ShowMenu("about")
 
         if renpy.variant("pc"):
 
@@ -502,7 +502,6 @@ style return_button_text is navigation_button_text
 style game_menu_outer_frame:
     bottom_padding 100
     top_padding 180
-    right_padding 100
 
     background "gui/overlay/game_menu.png"
 
