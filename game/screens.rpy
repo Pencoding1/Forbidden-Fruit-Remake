@@ -596,7 +596,7 @@ screen load():
 
     tag menu
 
-    use file_slots(_("Load"))
+    use file_slots(_("Tải lại"))
 
 
 screen file_slots(title):
@@ -717,7 +717,7 @@ style slot_button_text:
 screen preferences():
 
     tag menu
-    
+
     use game_menu(_("Cài Đặt"), scroll="viewport"):
 
         vbox:
@@ -735,7 +735,7 @@ screen preferences():
 
                 vbox:
                     style_prefix "radio"
-                    label _("Rollback Side")
+                    label _("Hướng cuộn lại")
                     textbutton _("Disable") action Preference("rollback side", "disable")
                     textbutton _("Left") action Preference("rollback side", "left")
                     textbutton _("Right") action Preference("rollback side", "right")
@@ -1187,10 +1187,13 @@ style confirm_prompt_text:
 
 style confirm_button:
     properties gui.button_properties("confirm_button")
+    idle_background Frame('gui/button/popup_button.png')
+    hover_background Frame('gui/button/popup_button_hover.png')
 
 style confirm_button_text:
     properties gui.button_text_properties("confirm_button")
-
+    idle_color '#000000'
+    hover_color '#ffffff'
 
 ## Skip indicator screen #######################################################
 ##
