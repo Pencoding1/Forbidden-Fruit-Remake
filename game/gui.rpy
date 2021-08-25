@@ -40,7 +40,7 @@ define gui.idle_color = u'#78a5c5'
 define gui.idle_small_color = u'#aaaaaa'
 
 ## The color that is used for buttons and bars that are hovered.
-define gui.hover_color = u'#c55444'
+define gui.hover_color = u'#9fcde6'
 
 ## The color used for a text button when it is selected but not focused. A
 ## button is selected if it is the current screen or preference value.
@@ -152,7 +152,7 @@ define gui.dialogue_text_xalign = 0.0
 ## how buttons are displayed.
 
 ## The width and height of a button, in pixels. If None, Ren'Py computes a size.
-define gui.button_width = 350
+define gui.button_width = None
 define gui.button_height = 70
 
 ## The borders on each side of the button, in left, top, right, bottom order.
@@ -177,8 +177,7 @@ define gui.button_text_insensitive_color = gui.insensitive_color
 ## The horizontal alignment of the button text. (0.0 is left, 0.5 is center, 1.0
 ## is right).
 define gui.button_text_xalign = 0.1
-define gui.button_text_yalign = 1.0
-
+define gui.button_text_yalign = 0.5
 
 ## These variables override settings for different kinds of buttons. Please see
 ## the gui documentation for the kinds of buttons available, and what each is
