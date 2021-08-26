@@ -426,7 +426,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
     if main_menu:
         add gui.main_menu_background
     else:
-        add gui.game_menu_background
+        pass
 
     frame:
         style "game_menu_outer_frame"
@@ -1189,6 +1189,7 @@ style confirm_button:
     properties gui.button_properties("confirm_button")
     idle_background Frame('gui/button/popup_button.png')
     hover_background Frame('gui/button/popup_button_hover.png')
+    xsize 300
 
 style confirm_button_text:
     properties gui.button_text_properties("confirm_button")
