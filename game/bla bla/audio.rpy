@@ -1,4 +1,3 @@
-define audio.bg0 = "audio/BGM/bg0.ogg"
 define audio.bg1 = "audio/BGM/bg1.ogg"
 define audio.bg2 = "audio/BGM/bg2.ogg"
 define audio.bg3 = "audio/BGM/bg3.ogg"
