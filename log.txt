@@ -1,0 +1,136 @@
+Thu Aug 26 13:35:22 2021
+Windows-10-10.0.19041
+Ren'Py 7.4.8.1895
+ 
+
+Bootstrap to the start of init.init took 0.13s
+Early init took 0.02s
+Loader init took 0.11s
+Loading error handling took 0.03s
+Loading script took 0.39s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.23s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Dump and make backups. took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 208, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 387, in script
+    $ __gl_test()
+  File "renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00gltest.rpy", line 387, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 342, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3237, in interact
+    self.start()
+  File "renpy/display/core.py", line 2173, in start
+    self.post_init()
+  File "renpy/display/core.py", line 2251, in post_init
+    self.set_icon()
+  File "renpy/display/core.py", line 2290, in set_icon
+    with renpy.loader.load(icon) as f:
+  File "renpy/loader.py", line 798, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'gui/window_icon.png'.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 208, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 387, in script
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 387, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 342, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+IOError: Couldn't find file 'gui/window_icon.png'.
+
+Full traceback:
+  File "renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 617, in main
+    run(restart)
+  File "renpy/main.py", line 148, in run
+    renpy.execution.run_context(True)
+  File "renpy/execution.py", line 922, in run_context
+    context.run()
+  File "renpy/common/00start.rpy", line 208, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 387, in script
+    $ __gl_test()
+  File "renpy/common/00start.rpy", line 208, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 387, in script
+    $ __gl_test()
+  File "renpy/ast.py", line 923, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 2235, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00gltest.rpy", line 387, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 342, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3237, in interact
+    self.start()
+  File "renpy/display/core.py", line 2173, in start
+    self.post_init()
+  File "renpy/display/core.py", line 2251, in post_init
+    self.set_icon()
+  File "renpy/display/core.py", line 2290, in set_icon
+    with renpy.loader.load(icon) as f:
+  File "renpy/loader.py", line 798, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'gui/window_icon.png'.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 208, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 387, in script
+    $ __gl_test()
+  File "renpy/common/00start.rpy", line 208, in script call
+    call _gl_test
+  File "renpy/common/00gltest.rpy", line 387, in script
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 387, in <module>
+    $ __gl_test()
+  File "renpy/common/00gltest.rpy", line 317, in _m1_00gltest__gl_test
+    _gl_performance_test()
+  File "renpy/common/00gltest.rpy", line 342, in _gl_performance_test
+    ui.interact(suppress_underlay=True, suppress_overlay=True)
+IOError: Couldn't find file 'gui/window_icon.png'.
