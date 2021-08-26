@@ -526,6 +526,7 @@ style game_menu_side:
 style game_menu_label:
     xpos 75
     ysize 180
+    background 'gui/label.png'
 
 style game_menu_label_text:
     size gui.title_text_size
