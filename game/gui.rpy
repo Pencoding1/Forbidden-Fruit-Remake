@@ -10,16 +10,6 @@ init offset = -2
 ## width and height of the game.
 init python:
     gui.init(1920, 1080)
-    gui.ARE_YOU_SURE = _("Bạn có chắc không ?")
-    gui.DELETE_SAVE = _("Are you sure you want to delete this save?")
-    gui.OVERWRITE_SAVE = _("Are you sure you want to overwrite your save?")
-    gui.LOADING = _("Loading will lose unsaved progress.\nAre you sure you want to do this?")
-    gui.QUIT = _("Bạn có chắc là muốn thoát không ?")
-    gui.MAIN_MENU = _("Are you sure you want to return to the main menu?\nThis will lose unsaved progress.")
-    gui.END_REPLAY = _("Are you sure you want to end the replay?")
-    gui.SLOW_SKIP = _("Are you sure you want to begin skipping?")
-    gui.FAST_SKIP_SEEN = _("Are you sure you want to skip to the next choice?")
-    gui.FAST_SKIP_UNSEEN = _("Are you sure you want to skip unseen dialogue to the next choice?")
 
 ################################################################################
 ## GUI Configuration Variables

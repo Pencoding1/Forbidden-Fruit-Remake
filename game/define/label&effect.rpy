@@ -1,3 +1,17 @@
+label splashscreen:
+
+    scene black with dissolve
+
+    scene logo with dissolve
+
+    pause (3)
+
+    show black with dissolve
+
+    hide logo with dissolve
+
+    return
+
 label opening:
     stop music
     scene black with dissolve
@@ -22,6 +36,7 @@ label opening:
     scene black with dissolve
     pause (2)
     return
+
 label callgirl:
     main "Này. Tỉnh lại đi. Làm sao mà cô vào nhà tôi được thế?"
     "Cô gái" "..."
@@ -32,6 +47,7 @@ label callgirl:
         "Đi ra ngoài tìm hiểu.":
             jump end
 return
+
 label transformchap2:
     scene black with fade
     pause(3)
@@ -41,6 +57,7 @@ label transformchap2:
     show txtb with dissolve
     pause(2)
 return
+
 label my_shake:
   init:
     python:
@@ -62,7 +79,7 @@ label my_shake:
                 self.child = child
             def __call__(self, t, sizes):
                 # Float to integer... turns floating point numbers to
-                # integers.                
+                # integers.
                 def fti(x, r):
                     if x is None:
                         x = 0
