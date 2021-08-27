@@ -1,3 +1,4 @@
+#Soundtrack
 define audio.bg1 = "audio/BGM/bg1.ogg"
 define audio.bg2 = "audio/BGM/bg2.ogg"
 define audio.bg3 = "audio/BGM/bg3.ogg"
@@ -5,6 +6,8 @@ define audio.bg4 = "audio/BGM/bg4.ogg"
 define audio.bg5 = "audio/BGM/bg5.ogg"
 define audio.bg6 = "audio/BGM/bg6.ogg"
 define audio.bg7 = "audio/BGM/bg7.ogg"
+
+#Special effect
 define audio.hardopen = "audio/sfx/hard_open_door.ogg"
 define audio.opendoor = "audio/sfx/closet-open.ogg"
 define audio.closedoor = "audio/sfx/closet-close.ogg"
