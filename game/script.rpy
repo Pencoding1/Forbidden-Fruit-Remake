@@ -6,7 +6,7 @@ label start:
         call end from _call_end
     if chap2 == 1:
         stop music
-        call transformchap2
+        call transformchap2 from _call_transformchap2
         call chap2 from _call_chap2
 return
 label gameover:
