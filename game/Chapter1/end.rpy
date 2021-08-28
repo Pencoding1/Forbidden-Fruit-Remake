@@ -1,41 +1,30 @@
 label end:
     stop music fadeout 0.5
-    #đổi ảnh ở black line 4 mày quên 1 lần rồi đấy
     play sound opendoor
-    show black with dissolve
-    "Tôi mở cửa ra khỏi nhà để tìm kiếm thông tin về cô nàng kỳ lạ ở trong nhà tôi."
-    "Có lẽ nếu tôi trở lại nơi ban đầu gặp mặt thì sẽ có thông tin gì đó." 
     scene bg_alley with fade
-    pause (2)
-    "Khi trước tôi đã vô tình gặp cô gái kia. Nếu bắt đầu từ đây thì có lẽ sẽ có manh mối gì đó."
-    "Tôi rảo bước trên con phố tối tăm và bẩn thỉu. Đi mãi để tìm kiếm nguồn gốc của cô gái đang ở nhà tôi."
-    "Khi đảo quanh một lúc mà chẳng có gì thì tôi mới chợt nhân ra mình đã vô tình đi vào trong một con hẻm nào đó."
-    main "Đúng là thói quen khó bỏ mà."
-    "Dù miệng nói thế nhưng tôi vẫn bước vào trong. Sự tò mò của tôi là vô hạn."
-    #scene alley_2 with fade
-    play music bg5
-    "Từ từ bước vào sâu bên trong, tôi ngay lập tức nhìn thấy một cảnh tượng kinh hoàng."
-    "Một đống lộn xộn và đổ nát xảy ra ngay giữa lòng thành phố. Và thứ gây ra việc này chính là thứ đang tỏa ra thứ ánh xanh kỳ lạ ngay sâu phía bên trong con hẻm."
-    "Một cỗ máy kỳ lạ với những phần bị hỏng hóc nặng nề do va đập nổi bật ngay giữa đống đổ nát."
-    "Cỗ máy đó có hình dạng như một con tàu bay, thế nhưng màu sắc và thiết kế đó khác hoàn toàn so với những loại tàu bay mà tôi biết."
-    "Và trên hết..."
-    play sound electric
-    "Xẹt Xẹt"
-    main "Nó vẫn đang hoạt động sao?"
-    "Từ trong khoang lái tàu, một thứ sắc xanh mờ ảo phát ra phủ xuống những bức tường xung quanh, hòa chung vào bầu không khí đầy khô khan. "
+    play music bg2
+    "Chán nản trước cảnh tượng vừa rồi, tôi chỉ còn biết cách trở lại nơi tôi từng gặp cô gái này để tìm kiếm chút thông tin vậy."
     play sound footstep
-    "Những bước chân tò mò bắt tôi phải tiến lên phía trước, tiến đến gần nơi đang phát ra thứ ánh sáng đó." 
-    "Như thể chính ánh hào quang đó đang thu hút lấy tôi..."
+    "Đường phố đông nghịt người qua lại tạo cho tôi chút cảm giác ngột ngạt."
+    "Tuy vậy đôi chân tôi vẫn tiếp bước."
+    "Và rồi, như một thói quen khó bỏ, đôi chân tôi lại dẫn lối tôi vào những con hẻm đầy u tối và ghê rợn."
+    "Lang thang trong con hẻm tối, tôi chợt nhìn thấy một khu vực bị dải băng phân cách của cảnh sát bao quanh."
+    "Ngay lập tức đánh hơi thấy được mùi thú vị, tôi liền lén lút tiến lại gần."
+    "Ở đó có vài viên cảnh sát và thanh tra đang nói chuyện với nhau."
+    "Tôi len lỏi vào điểm mù của họ và vượt qua dải phân cách."
+    scene bg_spaceX with dissolve
+    pause (1)
+    stop music fadeout 1.0
+    "Thò đôi chân tò mò của mình vào trong, tôi tiến sâu vào một khu vực đang tỏa ra ánh sáng xanh kỳ lạ."
     play sound machine
-    "Dù đã hỏng hóc nặng nề, nhưng tôi vẫn có thể thoang thoảng nghe thấy tiếng động cơ của nó cũng như phần ánh sáng phát ra từ con tàu này."
-    "Dần bước đến gần hơn, tôi ngó đầu vào bên trong khoang lái tàu để kiểm tra." 
-    "Không có ai ở đó cả."
-    "Thế nhưng bảng điều khiển và màn hình hiển thị vẫn đang sáng."
-    main "Hình như ở đây có viết gì đó?"
-    #scene easter eggs
-    "Ở trên màn hình hiển thị có một số bức hình cùng một vài dòng chữ bên cạnh."
-    "Khi đọc được những dòng chữ đầu tiên, tôi biết được ngay thứ này là của ai và ở đây làm gì." 
-    "Nhưng... những thứ hiển thị trong đây không chỉ là những thông tin bình thường mà còn là những bí mật mà chỉ những người trong cuộc mới hiểu được." 
-    'Và “những người trong cuộc” đó có bao gồm cả tôi.'
-    $ chap2 += 1
+    play sound electric
+    play music bg5
+    "Bên trong góc tối của con hẻm là một cỗ máy hệt như vừa rớt xuống từ ngoài không gian, hệt như được trang bị công nghệ của một giống loài có trí khôn nào đó từ phía xa của vũ trụ."
+    "Mặc dù màn hình vẫn còn hiện rõ rằng đang hoạt động nhưng cỗ máy đó đã hư mất một bên, có thể thấy rõ khói bốc ra từ phía bên trong."
+    "Rất may là thứ này vẫn còn xài ngôn ngữ của trái đất nên tôi vẫn có thể đọc được những thứ đang hiển thị trên màn hình."
+    main "Thứ này..."
+    "Vội rời khỏi con hẻm tối một cách lén lút và cẩn thận."
+    "Tôi hòa vào dòng người đông nghịt trên phố, mặt cúi gằm xuống."
+    "Nhưng không phải vì sợ nhìn vào mặt người khác, tôi sợ họ sẽ thấy được nụ cười phấn khích đầy man rợ đang hiển thị trên khuôn mặt này."
+#    $ chap2 += 1
 return
