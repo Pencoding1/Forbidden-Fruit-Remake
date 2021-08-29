@@ -1,6 +1,8 @@
-define FadeToBlack = Fade(0.5, 2, 0.5)
-define stun = Pixellate(2, 5)
-define stunning = ComposeTransition(FadeToBlack, before = stun, after = stun)
+define blink0 = Dissolve(time = 2)
+define blink1 = Fade(1, 2, 1)
+define stun = Pixellate(4, 5)
+define stunning0 = ComposeTransition(blink0, before = stun, after = stun)
+define stunning1 = ComposeTransition(blink1, before = stun, after = None)
 
 label splashscreen:
 
@@ -63,5 +65,6 @@ label transformchap2:
 return
 
 label wakeup:
-    scene bedhop2 with stunning
-    scene bedhop2 with stunning
+    scene black with fade
+    scene bedhop2 with stunning0
+    scene bedhop2 with stunning1
