@@ -1,5 +1,10 @@
 label FirstMeet:
+    scene gcut1 with dissolve
+    "..."
+    play sound heartbeat
     scene cut_n with fade
+    play sound passing
+    "Bộp..."
     play music bg2 fadein 2.0 volume 0.75
     "Liệu đây có phải sẽ là thứ mà tôi nên chối bỏ?"
     "Liệu cảm xúc mơ hồ này sẽ giết chết tôi? Sẽ chẳng có gì là mãi mãi khi mọi thứ đi theo hướng này."
