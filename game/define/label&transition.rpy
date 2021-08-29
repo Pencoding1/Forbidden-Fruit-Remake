@@ -1,8 +1,8 @@
-define blink0 = Dissolve(time = 2)
-define blink1 = Fade(1, 2, 1)
-define stun = Pixellate(4, 5)
-define stunning0 = ComposeTransition(blink0, before = stun, after = stun)
-define stunning1 = ComposeTransition(blink1, before = stun, after = None)
+define blink0 = Dissolve(time = 1)
+define blink1 = Fade(0.5, 1, 0.5)
+define stun = Pixellate(2, 3)
+define stunning0 = ComposeTransition(stun, before = blink0, after = stun)
+define stunning1 = ComposeTransition(stun, before = blink1, after = None)
 
 label splashscreen:
     scene black with dissolve
@@ -50,7 +50,7 @@ return
 
 #Wake up
 label wakeup:
-    scene black with stunning0
+    scene black with fade
     scene bedhop2 with stunning0
     scene bedhop2 with stunning1
 return
@@ -77,7 +77,7 @@ label my_shake:
                 self.child = child
             def __call__(self, t, sizes):
                 # Float to integer... turns floating point numbers to
-                # integers.                
+                # integers.
                 def fti(x, r):
                     if x is None:
                         x = 0
