@@ -1,18 +1,4 @@
-label chap1:
-    scene black with fade
-    pause (3)
-    show num1 with dissolve
-    pause (2)
-    show num2 with dissolve
-    pause (2)
-    scene gcut1 with fade
-    play sound heartbeat
-    "...."
-    scene black with fade
-    play sound passing
-    "Bộp..."
-    scene black with dissolve
-    pause (1)
+label FirstMeet:
     scene cut_n with fade
     play music bg2 fadein 2.0 volume 0.75
     "Liệu đây có phải sẽ là thứ mà tôi nên chối bỏ?"
@@ -34,11 +20,9 @@ label chap1:
     "Vì sao tôi lại ra nông nỗi này."
     "Rốt cục... Thứ gì..."
     stop music fadeout 1.0
-    scene black with fade
-    pause (2.5)
-    scene bedhop2 with dissolve
-    pause (2)
-    scene bedhop2 with fade
+return
+
+label hospital:
     "???" "Cuối cùng cậu cũng dậy rồi à?"
     main "!!!"
     play music bg3 volume 0.75
@@ -195,4 +179,4 @@ label chap1:
     "Chẳng còn cần bất cứ liều thuốc giảm đau nào, tôi bỗng hoàn toàn trở lại trạng thái bình thường ngay khi bước ra ngoài."
     "Không ngờ giờ đây tôi lại sợ phải đi vào chính căn nhà của bản thân."
     $ end += 1
-    return
+return

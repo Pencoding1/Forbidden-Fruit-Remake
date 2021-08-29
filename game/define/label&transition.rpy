@@ -1,3 +1,7 @@
+define FadeToBlack = Fade(0.5, 2, 0.5)
+define stun = Pixellate(2, 5)
+define stunning = ComposeTransition(FadeToBlack, before = stun, after = stun)
+
 label splashscreen:
 
     scene black with dissolve
@@ -58,8 +62,6 @@ label transformchap2:
     pause(2)
 return
 
-init python:
-
-    def wakeup():
-        return fade(old_widget = black, new_widget = bedhop2)
-        return pixellate(old_widget = bedhop2, new_widget = bedhop2)
+label wakeup:
+    scene bedhop2 with stunning
+    scene bedhop2 with stunning

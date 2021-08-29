@@ -16,6 +16,8 @@ image bg_house = im.Scale("images/bg/bg-house.png", 1920,1080)
 image bg_alley = im.Scale("images/bg/alley-bg.png", 1920,1080)
 image wall = im.Scale("images/bg/bg-wall.png",1920,1080)
 image bath = im.Scale("images/bg/bath.png",1920,1080)
+image txta = ("images/cutscene_p1/txt.png")
+image txtb = ("images/cutscene_p1/txtb.png")
 
 #Character
 image char_x1 = ("images/char_1/doctor.png")
@@ -30,5 +32,3 @@ image black = "#000000"
 image dark = "#000000e4"
 image darkred = "#110000c8"
 image white = "#ffffff"
-image txta = ("images/cutscene_p1/txt.png")
-image txtb = ("images/cutscene_p1/txtb.png")

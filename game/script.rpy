@@ -1,7 +1,9 @@
 call splashscreen from _call_splashscreen
 label start:
     call opening from _call_opening
-    call chap1 from _call_chap1
+    call FirstMeet from _call_FirstMeet
+    call wakeup from _call_wakeup
+    call hospital from _call_hospital
     if end == 1:
         call end from _call_end
     if chap2 == 1:
