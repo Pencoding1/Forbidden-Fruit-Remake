@@ -57,6 +57,7 @@ style scrollbar:
 
 style vscrollbar:
     xsize gui.scrollbar_size
+    ysize 700
     base_bar Frame("gui/scrollbar/vertical_[prefix_]bar.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
     thumb Frame("gui/scrollbar/vertical_[prefix_]thumb.png", gui.vscrollbar_borders, tile=gui.scrollbar_tile)
 
