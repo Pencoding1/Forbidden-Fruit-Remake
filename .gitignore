@@ -4,4 +4,3 @@ log.txt
 *.tmp
 game/saves/navigation.json
 traceback.txt
-game/saves/persistent
