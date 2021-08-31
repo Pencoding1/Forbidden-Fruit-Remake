@@ -5,3 +5,4 @@
 game/saves/navigation.json
 /errors.txt
 traceback.txt
+*.save

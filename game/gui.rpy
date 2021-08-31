@@ -52,25 +52,25 @@ define gui.interface_text_color = u'#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "/font/SVN-The Voice Light.ttf"
+define gui.text_font = "/font/SVN-The Voice Regular.ttf"
 
 ## The font used for character names.
-define gui.name_text_font = "/font/SVN-Hemi Head.ttf"
+define gui.name_text_font = "/font/SFUAGBuchStencilBQMedium.ttf"
 
 ## The font used for out-of-game text.
 define gui.interface_text_font = "/font/SVN-Hemi Head.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 30
+define gui.text_size = 35
 
 ## The size of character names.
 define gui.name_text_size = 40
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 40
+define gui.interface_text_size = 45
 
 ## The size of labels in the game's user interface.
-define gui.label_text_size = 40
+define gui.label_text_size = 45
 
 ## The size of text on the notify screen.
 define gui.notify_text_size = 40
