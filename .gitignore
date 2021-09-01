@@ -2,7 +2,7 @@
 *.rpyc
 *.rpyb
 *.tmp
-game/saves/navigation.json
+game/saves/**
 /errors.txt
 traceback.txt
 *.save

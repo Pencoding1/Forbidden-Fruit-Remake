@@ -1195,8 +1195,8 @@ style confirm_button:
 
 style confirm_button_text:
     properties gui.button_text_properties("confirm_button")
-    idle_color '#000000'
-    hover_color '#ffffff'
+    idle_color '#ffffff'
+    hover_color '#000000'
 
 ## Skip indicator screen #######################################################
 ##
