@@ -67,16 +67,16 @@ define gui.text_size = 35
 define gui.name_text_size = 40
 
 ## The size of text in the game's user interface.
-define gui.interface_text_size = 45
+define gui.interface_text_size = 40
 
 ## The size of labels in the game's user interface.
-define gui.label_text_size = 45
+define gui.label_text_size = 40
 
 ## The size of text on the notify screen.
 define gui.notify_text_size = 40
 
 ## The size of the game's title.
-define gui.title_text_size = 75
+define gui.title_text_size = 70
 
 
 ## Main and Game Menus #########################################################
@@ -155,7 +155,7 @@ define gui.button_tile = False
 define gui.button_text_font = "/font/SVN-Block.ttf"
 
 ## The size of the text used by the button.
-define gui.button_text_size = gui.interface_text_size
+define gui.button_text_size = 45
 
 ## The color of button text in various states.
 define gui.button_text_idle_color = gui.idle_color
