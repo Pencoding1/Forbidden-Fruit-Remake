@@ -2,8 +2,8 @@ label FirstMeet:
     scene gcut1 with dissolve
     "..."
     play sound heartbeat
-    scene cut_n with fade
     play sound passing
+    scene cut_n at Shake((0.5, 1.0, 0.5, 1.0), 1.0, dist=10) with stunning0
     "Bộp..."
     play music bg2 fadein 2.0 volume 0.75
     "Liệu đây có phải sẽ là thứ mà tôi nên chối bỏ?"
