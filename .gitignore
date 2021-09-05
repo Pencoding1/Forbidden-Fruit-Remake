@@ -1,6 +1,7 @@
 log.txt
 *.rpyc
-*.rpyb
+game/cache/**
 *.tmp
-game/saves/navigation.json
+game/saves/**
+errors.txt
 traceback.txt
