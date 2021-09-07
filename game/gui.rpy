@@ -52,7 +52,7 @@ define gui.interface_text_color = u'#ffffff'
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "/font/SVN-The Voice Regular.ttf"
+define gui.text_font = "/font/SVN-Kimberley.ttf"
 
 ## The font used for character names.
 define gui.name_text_font = "/font/SFUAGBuchStencilBQMedium.ttf"
