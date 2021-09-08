@@ -94,7 +94,7 @@ label chap2:
     scene black with fade
     pause(0.5)
     #scene sàn nhà with fade
-    play music bg0
+    play music bg5
     "Ngay lúc đó, một cảm giác như đã chết trong tôi sống dậy, lồng ngực đau nhói khiến tôi ngã gục và nằm bất động dưới đất."
     "Mọi hình ảnh được đưa vào võng mạc của tôi mờ dần."
     "Toàn bộ chân tay bủn rủn, không còn chút sức lực để động đậy. Hơi thở như bị ngưng đọng bởi một thứ không khí dịu nhẹ."
@@ -103,6 +103,9 @@ label chap2:
     "Lúc ý thức tôi mờ dần..."
     "...Hình ảnh mờ nhạt của cô gái mọi khi vẫn nằm im bất động một chỗ giờ đây bắt đầu gượng mình đứng dậy."
     "Đôi môi nhợt nhạt khẽ rung lên, tròng mắt trợn ngược lên vì cơn đau, tay ôm lấy ngực với bộ dạng lảo đảo như sắp ngã."
+    scene bg sàn nhà with fade
+    pause (1)
+    scene bg sàn nhà with fade
     "Cô gái" "Cậu... ra ngoài một chút được không?"
     main "Xin lỗi...nhưng...sàn nhà mát quá."
     "Tôi yếu ớt đáp."
@@ -126,12 +129,13 @@ label chap2:
     play sound opendoor
     play sound hard_open_door
     "Sau khi bước chân cuối cùng kết thúc, tôi đóng sầm cửa chính lại và ngồi bệt xuống ngay trước hành lang chung cư."
+    play sound passing
     main "Chuyện gì vừa xảy ra vậy?{w} Không lẽ cô ta cũng giống mình?"
     stop music fadeout 0.5
     scene black with dissolve
     pause (2)
-    play music bg3 fadein 1.0
     scene bg_house with fade
+    play music bg3 fadein 1.0
     show girl_normal:
         xalign 0.5
     "Cô gái" "Ờ... hiện tại thì chúng ta sẽ chia ra như thế này. Còn khi nào muốn qua phía bên kia thì phải nói để còn đổi..."
@@ -185,50 +189,24 @@ label chap2:
     "Cô gái" "Thứ đó..."
     "Cô nàng đưa tay chỉ vào khối cầu nóng bỏng mà tôi mang về."
     "Cô gái" "Cậu lấy nó ra từ con tàu của tôi phải không?"
-    main "Không có ký ức..."
-    hide girl_normal
-    show girl_scared:
-        xalign 0.5
-    "Cô gái" "Ấy chết..."
-    main "Cô lừa tôi à?"
-    hide girl_scared
-    show girl_joke:
-        xalign 0.5
-    "Cô gái" "..."
-    main "Được rồi vậy tôi hỏi lại. Bao giờ cô rời khỏi đây."
-    hide girl_joke
-    show girl_supprise
-    "Cô gái" "Tôi còn tưởng cậu định hỏi tôi tên gì?"
-    main "Sao mà chả được."
-    hide girl_supprise
-    show girl_normal
-    "Cô gái" "Seven."
-    main"Seven?"
-    "Cô gái" "Tên tôi đấy. Dù gì cũng lộ rồi."
-    main "Thế à. Vậy tôi gọi cô là Nana nhé."
-    hide girl_normal
-    show girl_khinh:
-        xalign 0.5
-    "Cô gái" "Chơi chữ tệ quá đấy."
-    hide girl_khinh
     show girl_normal:
         xalign 0.5
-    n "Về câu hỏi của cậu. Khi nào tôi rời đi đúng chứ."
-    main "Ừ. Nhưng tôi cũng biết lí do rồi lúc nãy rồi. Cô không thể về do con tàu bay của mình bị hư phải chứ."
-    n "Đúng vậy. Và thứ cậu đem về rồi để cho nó nằm ở kia chính là nguồn năng lượng chính của con tàu của tôi."
-    n "Không có nó thì tôi chẳng thể qua đây được đâu."
+    main "Cái đó quả nhiên là của cô nhỉ? Ừ thì đúng là tôi lấy từ nó ra, thế nhưng giờ nó chẳng khác gì mớ phế liệu, nên tôi có lấy ra hay không cũng đâu quan trọng."
+    "Cô gái" "Có quan trọng đấy. Tôi không thể về nếu không có con tàu đó được."
+    main "Vậy tức là chỉ cần có con tàu đó thì cô có thể rời đi và trở lại bên kia bức tường chứ gì?"
+    "Cô gái" "Không có nó thì tôi chẳng thể qua đây được đâu."
+    main "Được thôi."
     play sound moving
-    "Nói xong, tôi cố đẩy cái tủ sau lưng mình sang vị trí khác."
     "Từ dưới chân tủ, một lối đi bí mật dẫn xuống dưới bắt đầu hiện ra. Sau đó tôi đeo bao tay chống nhiệt vào rồi cầm lấy khối cầu vàng mang nó xuống hầm."
     hide girl_normal
     show girl_supprise:
         xalign 0.5
-    n "Không ngờ trong nhà cậu lại có thứ này đấy."
+    "Cô gái" "Không ngờ trong nhà cậu lại có thứ này đấy."
     main "Của chủ cũ đấy, tôi chỉ mượn dùng tạm thôi."
-    n "Chủ cũ?"
+    "Cô gái" "Chủ cũ?"
     main "Cô không muốn biết thêm đâu. Đại khái là đây từng là nhà của một tên tội phạm. Hắn đào ra căn hầm này để trốn xuống khi cần."
     main "Lần đầu tôi đến đây nó còn khá mới nên tôi dùng luôn chổ này thành nhà kho."
-    n "Hừm... Này, tôi muốn xuống đó."
+    "Cô gái" "Hừm... Này, tôi muốn xuống đó."
     main "Khoan đã."
     "Xuống dưới tầng hầm, tôi nhanh chóng tiến bước vào sâu bên trong để giữ khoảng cách và đặt khối cầu kia xuống cái bàn ở góc phòng."
     "Sau khi đã xác nhận lại khoảng cách, tôi gọi với lên phía trên."
@@ -236,14 +214,17 @@ label chap2:
     scene black with dissolve
     pause(2)
     stop music fadeout 1.0
+    play music bg6
     "Một lúc sau, trên đầu tôi bắt đầu xuất hiện tiếng bước chân từ từ chậm rãi tiến về hướng cái cầu thang."
     "Từng bước chân kia nhẹ nhàng đặt xuống bậc thang gỗ có phần cũ kỹ kêu lên ken két."
     hide girl_supprise
     show girl_scared at Shake((0.5, 1.0, 0.5, 1.0), 1.0, dist=5):
         xalign 0.5
-    n "Cái này...!"
+    "Cô gái" "Cái này...!"
     "Cô nhăn mặt tỏ vẻ khó chịu pha lẫn bất ngờ."
-    n "Dưới này bẩn quá!"
+    stop music fadeout 1.0
+    #play music 
+    "Cô gái" "Dưới này bẩn quá!"
     main "Đó là điều đầu tiên cô nói được à!"
     "Thứ cô gái đó nhìn vào chính là điểm tập kết mỗi khi tôi đi trộm đồ về."
     "Con tàu kia không phải thứ đầu tiên mà tôi từng tháo dỡ, thế nên ở dưới này có rất nhiều linh kiện phụ tùng từ nhiều loại máy móc khác nhau."
@@ -251,27 +232,22 @@ label chap2:
     hide girl_scared
     show girl_normal:
         xalign 0.5
-    n "Cái gì?"
+    n "Seven."
+    main "Hả?"
+    n "Tên tôi là Seven."
+    main "Vậy Nana nhé."
+    "Tôi giở giọng bâng quơ."
+    n "Nana? Mà thôi muốn gọi gì mặc cậu."
+    n "Vậy còn cậu?"
+    "Cô nàng mở lời trong khi vẫn nhìn chăm chăm về phía tôi."
+    main "Tên à..?"
+    "Tôi giả vờ đưa tay lên xoa cằm ngẫm nghĩ một lúc để giấu đi sự bối rối của bản thân."
+    main "Kinjiru Ai"
+    n "Cái gì? Tên cậu nghe dị thật đấy."
+    main "Có phải tôi muốn như thế à"
     main "Để cô nhanh chóng về nơi của mình thì tôi chỉ cần làm một phương tiện cho cô đi về thôi đúng chứ."
     n "Sửa lại không phải nhanh hơn à?"
     main "Thứ đó nát lắm rồi. Xung quanh lại còn có cảnh sát, nếu không muốn bị bắt thì tốt nhất tạo ra một cái khác cho nhanh."
-    n "À đúng rồi. Này còn cậu thì sao?"
-    main "Tôi như nào là sao?"
-    n "Tên ấy. Cậu tên là gì?"
-    main "Forbidden."
-    n "Forbidden?"
-    hide girl_normal
-    show girl_joke:
-        xalign 0.5
-    n "Forbideen nhỉ...?"
-    "Nana giở giọng như hiểu ra thứ gì đó, cô nàng cười mỉm như thể đang trêu chọc tôi."
-    hide girl_joke
-    show girl_happy:
-        xalign 0.5
-    n "Vậy từ giờ mong cậu giúp đỡ nhé. Kinjiru."
-    main "Đùa tệ thật đấy."
-    n "Của cậu mà."
-    "Dù điệu bộ bên ngoài thì như thế nhưng bây giờ toàn thân tôi đang chao đảo chỉ vì một cái mỉm cười đầy châm chọc của Nana."
     "Ngồi xuống và tựa lưng vào cái sofa bên cạnh, tôi cố giấu đi dáng vẻ của bản thân lúc này."
     hide girl_happy
     show girl_normal:
@@ -284,6 +260,22 @@ label chap2:
     main "Thứ này là gì thế?"
     n "Cậu chỉ cần biết là nó cần thiết cho con tàu là được."
     main "Hừm..."
+    n "Với lại... cái thứ màu xanh xanh kia, tôi muốn giữ nó."
+    "Vừa nói, Nana vừa chỉ tay về khối cầu đang phát sáng trên bàn."
+    "Không những tỏa ra một nguồn nhiệt lớn bởi năng lượng tích tụ bên trong, quả cầu còn chuyển hóa một phần năng lượng rỉ ra thành thứ ánh sáng xanh huyền ảo."
+    #scene bg core
+    main "Cái này vốn chẳng phải của tôi, nhưng hiện tại tôi cũng chưa thể đưa cô giữ."
+    main "Tôi vẫn chưa hiểu cô là gì và tại sao cô lại ở đây."
+    main "Thế nên nếu đưa nó cho cô thì tôi không chắc tính mạng của mình sẽ được bảo toàn đâu."
+    n "Tính mạng được bảo toàn? Một kẻ chỉ còn sống được một tháng như cậu thì bảo toàn cái gì?"
+    main "Vậy nơi của cô cũng đề cập đến căn bệnh à? Nana, cô đến từ đó đúng không? Phía bên kia bức tường ấy?"
+    n "Với khoảng cách này thì tôi có thể lấy quả cầu năng lượng đó bất cứ lúc nào đấy?"
+    "Nana chau mày."
+    n "Với lại, tên tôi là Seven."
+    main "Cô nói sao cũng được mà? Hơn nữa, cô không thể lấy nó đâu. Vì tôi đang “ở đây”."
+    n "Hừ, tên phiền phức."
+    "Giận dỗi bỏ đi, Nana bước lên cầu thang và rời khỏi căn hầm. Cũng nhờ thế mà tôi mới có thể thả lỏng và hít thở."
+    "Áp lực mà một cô gái mang đến lớp đến thế này à? Nhưng... nhờ thế mà tôi mới tìm thấy được chút niềm vui trong những cuộc trò chuyện tưởng chừng nhàm chán này."
     "Chẳng biết từ lúc nào, trong đầu tôi bỗng nảy ra ý định qua bên kia bức tường cùng với Nana. Tất nhiên là không phải vì vấn đề giới tính."
     "Chỉ đơn giản là muốn chạy trốn, trốn khỏi sự nhàm chán không cách nào khỏa lấp được này."
     "Vẫn còn vài tuần trước khi dấu báo tử của tôi xuất hiện, thế nên trong vài tuần còn lại đó, tôi sẽ liều mình làm những việc mà trước đây chưa bao giờ làm."
@@ -296,7 +288,7 @@ label chap2:
     "Nếu ánh mắt của tôi mà ở lại đó dù chỉ một giây nữa thì có thể tôi sẽ phải tăng khẩu phần thuốc của hôm nay mất."
     main "Phần của cô đó."
     "Tôi chỉ tay lên phần thức ăn vừa mang về."
-    #show girl2_normal if didn't have bg
+    show girl2_normal
     n "Cậu không ăn à?"
     main "Tôi ăn rồi."
     "Để tránh việc mình có những suy nghĩ không tốt. Tôi nhìn về phía lối đi xuống tầng hầm hay công xưởng cũng được, rồi tiến vào đó."
@@ -378,7 +370,7 @@ label chap2:
     n "Để làm gì?"
     main "Cô thích ở nhà tôi đến thế à?"
     hide girl_supprise
-    show girl_sad 
+    show girl_sad
     "Nghe thấy tôi nói vậy, Nana hơi bĩu môi ra chiều lưỡng lự. Và rồi, cô nàng lại quay lại với khuôn mặt đầy vẻ mỉa mai của mình."
     n "Cậu muốn đuổi tôi đi à?"
     main "Không... Chỉ là trường hợp xấu nhất thôi."

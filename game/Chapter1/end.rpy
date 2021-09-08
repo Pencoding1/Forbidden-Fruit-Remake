@@ -1,4 +1,4 @@
-label end:
+label end_1:
     stop music fadeout 0.5
     play sound opendoor
     scene bg_alley with fade
@@ -26,5 +26,5 @@ label end:
     "Vội rời khỏi con hẻm tối một cách lén lút và cẩn thận."
     "Tôi hòa vào dòng người đông nghịt trên phố, mặt cúi gằm xuống."
     "Nhưng không phải vì sợ nhìn vào mặt người khác, tôi sợ họ sẽ thấy được nụ cười phấn khích đầy man rợ đang hiển thị trên khuôn mặt này."
-#    $ chap2 += 1
+    $ chap2 += 1
 return

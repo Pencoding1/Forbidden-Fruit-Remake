@@ -40,10 +40,10 @@ label opening:
 
 label transformchap2:
     scene black with fade
-    pause(3)
+    pause(2)
     show txta with dissolve
-    pause(1)
-    hide txta
+    pause(2)
+    hide txta with dissolve
     show txtb with dissolve
     pause(2)
 return

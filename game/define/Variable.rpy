@@ -7,6 +7,6 @@ define x1 = Character("Toshihida")
 define x2 = Character("Y tá nam")
 define main = Character("Kinjiru Ai")
 define pen = Character("Pen")
-define chap2 = 0
+define change_chapter = 0
 define end = 0
 define n = Character("Nana")
