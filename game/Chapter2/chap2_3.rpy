@@ -37,7 +37,7 @@ label chap2_3:
     "Nghe thì con tàu này lại có vẻ như rất được việc đấy nhưng so với nguồn năng lượng mà các loại tàu bay thời nay dùng thì chỉ như so sánh cốc nước muối với biển thôi."
     "Vì tận dụng nguồn gió, hay nói cách khác là sự chuyển động của không khí khi con tàu bay trong khí quyển nên gần như là nó sẽ chạy rất trơn tru mà chẳng tốn một chút nguyên liệu thêm nào nữa."
     "Nhưng khi ra ngoài không gian thì lại khác. Nhưng mà tôi có định ra ngoài không gian đâu, nên chắc như này là ổn."
-"Trước khi muốn tubin trong máy phát điện chạy nhờ sức gió thì tôi phải cho nó một nguồn năng lượng để cho nó bay trước đã."
+    "Trước khi muốn tubin trong máy phát điện chạy nhờ sức gió thì tôi phải cho nó một nguồn năng lượng để cho nó bay trước đã."
     "Nên là tôi đã chuẩn bị một thứ gần giống như pin dự trữ phòng tình huống hỏng máy phát điện để còn năng lượng đáp xuống khẩn cấp. Cũng như trước khi bay lên trời."
     "Giờ việc của tôi là nạp đầy điện thôi."
     "Lấy máy vặn ốc tự động, tôi cạy phần ống dẫn dây trong nhà ra.Sau đó, tôi nối dài nó xuống tầng hầm. Cắm nó vào một cái máy khuết đại dòng điện khác nhỏ hơn để nạp điện cho pin dự phòng."
