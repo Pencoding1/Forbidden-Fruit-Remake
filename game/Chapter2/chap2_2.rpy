@@ -4,16 +4,20 @@ label chap2_2:
     "Sau một lúc cân nhắc kỹ lưỡng tôi quyết định mặc kệ thứ đó."
     "Hừm, như vậy chắc đủ cho hôm nay rồi. Dù sao thì tôi cũng đâu có ý định chế tạo lại một thứ gì đó giống hệt đâu mà."
     "???" "Này! Ai ở trong đó vậy!"
+    play music bg6
     main "Tiêu rồi, đổi ca trực ư? Sao lại nhanh vậy? Đành phải đi theo con đường đấy nhỉ."
     "Chẳng còn thì giờ để suy nghĩ, tôi vội thoát bằng con đường đã chuẩn bị sẵn để sử dụng vào những lúc nguy cấp."
     "Tôi vẫn còn hơn bốn tuần nữa để sống, không thể để bị bắt lãng xẹt vậy được."
     play sound running
     "Ngay khi rời khỏi con hẻm, tôi cố chen vào dòng người đông đúc trên phố và đi theo một hình dạng bất quy tắc nhất có thể với mong muốn cắt đuôi được bất cứ kẻ nào đang theo sau lưng mình."
+    "Thế nhưng, tôi lại quên mất một điều rằng thiết bị theo dõi vẫn đang ở trong cánh tay của mình."
+    stop music
     play sound opendoor
     "Mở cửa trong trạng thái rũ rượi cả cơ thể lẫn tinh thần, tôi ngay lập tức bị thêm một đòn công kích chẳng mấy là bất ngờ tỏa ra từ phía trong căn nhà."
-    scene bg house
-    "Thế nhưng, tôi lại quên mất một điều rằng thiết bị theo dõi vẫn đang ở trong cánh tay của mình."
-    "Mở cửa trong trạng thái rũ rượi cả cơ thể lẫn tinh thần, tôi ngay lập tức bị thêm một đòn công kích chẳng mấy là bất ngờ tỏa ra từ phía trong căn nhà."
+    scene black with dissolve
+    pause (1)
+    play music bg3 volume 0.25
+    scene bg_house with dissolve
     main "Ư... làm sao để tống cô ta đi nhỉ?"
     "Việc cô gái này xuất hiện, tâm trí tôi như đang bị bào mòn từng ngày vậy."
     "Dù sao thì thứ thuốc kia vẫn giúp tôi chút ít, thế nhưng việc hít thở một bầu không khí như rải đinh nhọn thế này thật chẳng tốt cho sức khỏe chút nào."
@@ -28,13 +32,14 @@ label chap2_2:
     "Điều đó chứng tỏ cô ta không bình thường."
     "Cơ mà tôi cũng chẳng biết gì về cô gái này, hay nói đúng hơn thì tôi chẳng biết gì về con gái cả."
     "Những điều nêu ra trong sách vở quá mơ hồ, họ chỉ miêu tả sơ sài về một sinh vật loài người có mái tóc dài, cơ thể thon gọn, nhiều đường cong cùng với một vẻ đẹp đặc biệt."
-    "So với những khái niệm trong sách thì cô gái này quá khác biệt. Cô ta cũng có một mái tóc dài, một cơ thể thon gọn, nhiều đường con và một vẻ đẹp không sao cưỡng lại được. Thế nhưng mọi chuyện không chỉ có thể."
+    "So với những khái niệm trong sách thì cô gái này quá khác biệt. Cô ta cũng có một mái tóc dài, một cơ thể thon gọn, nhiều đường cong và một vẻ đẹp không sao cưỡng lại được. Thế nhưng mọi chuyện không chỉ có thể."
     "Trong sách cũng miêu tả rằng phụ nữ vẫn là loài người, vậy mà cô gái này đã hai ngày rồi không ăn, cũng chẳng có chút dấu hiệu nào là đang hít thở."
     main "Giống như... cô ta đã chết vậy."
     "Ấy vậy mà cơ thể đó lại không thối rữa, làn da vẫn đàn hồi và hồng hào. Hiện tôi chẳng có khả năng để kiểm tra đồng tử nhưng tôi nghĩ nó vẫn bình thường."
     main "Vậy chẳng lẽ cô ta đúng là thứ mà tài liệu trong con tàu kia để cập?"
     "Nếu vậy thì còn phiền phức hơn dự định. Nhưng... cũng đồng thời thú vị hơn dư kiến!"
-    scene black with dissovle
+    stop music fadeout .5
+    scene black with dissolve
     pause (2)
     scene bg_ham with fade
     "Ngay bên dưới căn hầm ẩm thấp và bụi bặm, có một kẻ đang ngồi mò mẫm hàng tiếng đồng hồ để chế tạo ra một thứ trước vốn chỉ được cấp phép mới có thể sở hữu."
@@ -57,6 +62,8 @@ label chap2_2:
     "Không những thế, tôi có một thứ phải kiểm chứng."
     "Hự..."
     play sound heartbeat
+    pause (1)
+    play music bg3 fadein 1.0 volume 0.25
     "Lồng lực tôi một lần nữa quặn đau báo hiệu giờ uống thuốc đã đến."
     "Đành phải bỏ dở công việc đang khiến tôi hứng thú, tôi bước từng bước lên cầu thang và rời khỏi căn hầm."
     "Dưới đó vốn không phải của tôi, từ lúc tôi chuyển đến đây thì nó đã ở đó rồi."
@@ -65,7 +72,7 @@ label chap2_2:
     "Nơi đó trở thành nơi tập kết chiến lợi phẩm của tôi cũng như để tôi thực hiện sở thích của mình."
     "Bình thường thì mấy con hẻm luôn có nhiều thứ thú vị và dễ kiếm hơn nhiều. Chỉ cần một vài cái xác máy cũ là tôi có thể có đủ bộ phận để chế tạo thứ gì đó hay ho rồi."
     "Tuy vậy tôi vẫn cảm thấy không an toàn cho lắm nên đã dùng một cái tủ để lấp đi lối ra vào căn hầm. Chỉ như vậy thì tôi mới an tâm sử dụng nó được. Ai mà ngờ được việc sẽ có một kẻ nào khác trốn ở đó chứ? Nên là..."
-    scene bg_house with dissovle
+    scene bg_house with dissolve
     main "Cẩn tắc vô áy náy."
     play sound moving
     "Lồng ngực một lần nữa nhói lên như để chắc nhở, tôi buộc phải hướng mắt về cái hộp thuốc để trên tủ dù muốn hay không."
@@ -74,11 +81,13 @@ label chap2_2:
     "Cơ thể cô ta chẳng hề thay đổi cho dù không ăn, không uống, cũng chẳng cần hít thở."
     "Cô ta không thối rữa đi, nhưng cũng chẳng có dấu hiệu nào rằng cô gái đó sẽ tỉnh lại."
     "Liệu tôi có nên mang cô ta xuống dưới tầng hầm cho an toàn không nhỉ? Lỡ có ai đó vào nhà đột xuất thì đó là ngày cuối của đời tôi mất."
+    stop music fadeout 1.0
     menu:
         "Đem xuống dưới hầm.":
-            jump chap2_3:
+            jump chap2_3
         "Không đem xuống.":
             pass
+    play music bg3 volume 0.25
     "Cơ mà tôi chẳng muốn lặp lại việc đó chút nào."
     "Thôi thì cứ để cô ta ở đây vậy."
     "Dừng việc nhìn chằm chằm vào thực thể bí ẩn đó, tôi lấy một viên thuốc từ trong hộp ra và bỏ vào miệng."
@@ -94,6 +103,7 @@ label chap2_2:
     "Nhưng khi ra ngoài không gian thì lại khác. Nhưng mà tôi có định ra ngoài không gian đâu, nên chắc như này là ổn."
     main "Mà thôi. Giờ đi ngủ, chứ làm lao lực hai ngày trời khéo lại chết trước khi chết vì bệnh mất."
     "Nghĩ thế nên tôi đi vào phòng rồi ngủ."
+    stop music fadeout .5
     scene black with dissovle
     pause(1)
     scene bg_ham with fade
@@ -108,6 +118,7 @@ label chap2_2:
     "Nói đoạn, tôi kéo đoạn dây to bằng cả cổ tay đến gần cỗ máy, leo lên phần thân nó bằng thang bảo trì và cắm phần chốt dây vào ngay phía trên phần lõi."
     play sound electric3
     "Thế nhưng, vào khoảng khắc mà tôi cắm chốt dây vào, mọi thứ xung quang liền bị bao phủ bởi một màu đen sâu thẳm."
+    play music bg7 volume .25
     main "Mất điện à?"
     main "Mà cũng không đúng lắm, thời buổi này mất điện còn hiếm hơn việc trúng số nữa."
     main "Thôi xong, nếu không phải mất điện thì chỉ còn một cách để giải thích."
@@ -138,11 +149,11 @@ label chap2_2:
     "Nhận thấy điều mình cần làm tiếp theo, tôi ấn nút mở cửa với ý định ra ngoài thực hiện tiếp công việc. Thế nhưng, bằng một cách nào đó, cái nút không hoạt động."
     main "Hả? Chuyện gì nữa đây, khi nãy vẫn còn đóng lại được mà?"
         #play sound rầm
-        "Trong lúc tôi lấy hộp dụng cụ để kiểm tra lại lỗi, một âm thanh lớn phát ra ngay gần đây khiến tôi giật bắn mình và đập đầu vào phần trên của con tàu."
-        main "Ui! Đau!"
-        "Kế đến, một loạt âm thanh nghe như tiếng bước chân phát ra dồn dập trên đầu tôi. Ngửa cổ lên nhìn, đập vào mắt tôi chỉ có lớp vỏ kim loại của con tàu, chẳng thể nhìn thấy gì hơn."
-        "Và cho dù không có con tàu ở đây thì thứ tôi thấy cũng chỉ là lớp trần bê tông."
-        "Có ai đó đang ở trong nhà tôi, hơn nữa còn rất nhiều."
+    "Trong lúc tôi lấy hộp dụng cụ để kiểm tra lại lỗi, một âm thanh lớn phát ra ngay gần đây khiến tôi giật bắn mình và đập đầu vào phần trên của con tàu."
+    main "Ui! Đau!"
+    "Kế đến, một loạt âm thanh nghe như tiếng bước chân phát ra dồn dập trên đầu tôi. Ngửa cổ lên nhìn, đập vào mắt tôi chỉ có lớp vỏ kim loại của con tàu, chẳng thể nhìn thấy gì hơn."
+    "Và cho dù không có con tàu ở đây thì thứ tôi thấy cũng chỉ là lớp trần bê tông."
+    "Có ai đó đang ở trong nhà tôi, hơn nữa còn rất nhiều."
     main "Chết tiệt! Chuyện gì đang xảy ra ở trên đó vậy!"
     "Tôi không còn kiềm chế được bản thân, vội vàng ấn lia lịa vào cái nút mở cửa. Nhưng tất nhiên, không hoạt động thì có ấn cách mấy thì vẫn là không hoạt động."
     main "Cô ta còn ở trên đó mà!"

@@ -1,4 +1,5 @@
 label chap2_3:
+    play music bg3 fadein 1.0 volume 0.25
     "Chắc là phải làm rồi."
     "Sau khi uống một viên thuốc và cầm sẵn luôn hộp thuốc trên tay. Tôi liều mình hít một hơi thật sâu thứ không khí lẫn đầy mùi hương chết chóc đó và tiến đến gần cô ta, rồi cứ thế nhấc bổng cơ thể đó lên bằng cả hai tay."
     "Hệt như việc tôi đã làm với cô gái này khi cô ta xuất hiện trong nhà tôi vậy."
@@ -19,15 +20,18 @@ label chap2_3:
     "Khoan đã, tôi đang nghĩ cái gì vậy? Não mất khả năng nhận thức rồi à? Bình tĩnh nào, phải giữ mình tỉnh táo, phải tỉnh táo."
     "Mở hộp thuốc đang trên đà rơi khỏi tay, tôi lấy ra một viên thuốc nữa. Chẳng còn bận tâm rằng thứ này là gì, tôi cho viên thuốc mới lấy ra thẳng vào miệng."
     "Tuy nhiên, tôi chưa nuốt xuống hẳn mà bắt đầu dùng răng cắn nó đến khi vỡ vụn."
-    "Cái mùi hương đắng nghét cùng cảm giác buồn nôn nơi cuống họng đã phần nào bài trừ đi cơn mê của tôi. Cố gắng đảo đống vụn thuốc bằng lười, tôi muốn vòm miệng mình cảm nhận từng chút một, từng chút một của cái vị đắng chẳng bao giờ thay đổi đó."
+    "Cái mùi hương đắng nghét cùng cảm giác buồn nôn nơi cuống họng đã phần nào bài trừ đi cơn mê của tôi."
+    "Cố gắng đảo đống vụn thuốc bằng lười, tôi muốn vòm miệng mình cảm nhận từng chút một, từng chút một của cái vị đắng chẳng bao giờ thay đổi đó."
     main "Ọe..."
     "Thế nhưng, cũng chính nhờ vậy mà quãng đường đi xuống tầng hầm của tôi trở nên dễ dàng hơn rất nhiều."
-    "Sau khi đã đặt cô ta ngồi yên vị ở một cái ghế cuối góc phòng, tôi mới có thể tiếp tục công việc của mình. Rất may là cái vị đắng đến kinh tởm đó vẫn còn sót lại trong miệng tôi nên tôi sẽ tạm thời quên được sự hiện diện của cô gái đó trong cái tầng hầm chật chội và kín mít này."
+    "Sau khi đã đặt cô ta ngồi yên vị ở một cái ghế cuối góc phòng, tôi mới có thể tiếp tục công việc của mình."
+    "Rất may là cái vị đắng đến kinh tởm đó vẫn còn sót lại trong miệng tôi nên tôi sẽ tạm thời quên được sự hiện diện của cô gái đó trong cái tầng hầm chật chội và kín mít này."
     main "Kiệt sức rồi."
     "Tôi gần như muốn gục ngay tại chổ. Việc phải làm việc lao lực suốt hai ngày đã khiến cơ thể tôi sắp quá tải. Nhưng khi phải bế cô nàng này xuống hầm nữa thì nó báo động đỏ rồi."
     main "Còn làm gì thêm nữa thì chết trước ngày bệnh phát mất."
     "Nghĩ thế nên tôi đi ngủ. Dù gì chỉ còn vài bước nữa là con tàu kia sẽ hoàn thành thôi nên nghỉ tý cũng chả sao."
-    scene black with dissovle
+    stop music fadeout .5
+    scene black with dissolve
     scene bg_ham with fade
     "Mọi thứ đã gần như hoàn thành, giờ chỉ còn một việc duy nhất là năng lượng nữa thôi."
     "Vì đã không lấy cái lõi năng lượng kia nên giờ đây tôi phải nghĩ ra cách khác để cấp năng lượng cho nó mới được."
