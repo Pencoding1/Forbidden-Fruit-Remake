@@ -76,7 +76,7 @@ label chap2_2:
     "Liệu tôi có nên mang cô ta xuống dưới tầng hầm cho an toàn không nhỉ? Lỡ có ai đó vào nhà đột xuất thì đó là ngày cuối của đời tôi mất."
     menu:
         "Đem xuống dưới hầm.":
-            jump route2_3:
+            jump chap2_3:
         "Không đem xuống.":
             pass
     "Cơ mà tôi chẳng muốn lặp lại việc đó chút nào."
@@ -84,7 +84,6 @@ label chap2_2:
     "Dừng việc nhìn chằm chằm vào thực thể bí ẩn đó, tôi lấy một viên thuốc từ trong hộp ra và bỏ vào miệng."
     "Cảm thấy quá lười để uống nước, tôi nuốt trôi luôn viên thuốc xuống cổ họng."
     "Lý trí tôi dần bừng tỉnh bởi vị đắng của thuốc, cũng như một phần nào trong tôi trở nên nhẹ nhõm và dễ kiểm soát hơn."
-    "Sau khi đã cảm nhận được viên thuốc đã hoàn toàn trôi xuống, tôi trở lại căn hầm và tiếp tục công việc của mình."
     "Mọi thứ đã gần như hoàn thành, giờ chỉ còn một việc duy nhất là năng lượng nữa thôi."
     "Vì đã không lấy cái lõi năng lượng kia nên giờ đây tôi phải nghĩ ra cách khác để cấp năng lượng cho nó mới được."
     "Chẳng biết dùng thứ gì cả nên tôi đành phải sử dụng nguồn điện. Nhưng điện thì tôi nghĩ nó sẽ không đủ để cho cái 'Con Quái Thú' này chạy nổi đâu."
@@ -93,7 +92,7 @@ label chap2_2:
     "Nghe thì con tàu này lại có vẻ như rất được việc đấy nhưng so với nguồn năng lượng mà các loại tàu bay thời nay dùng thì chỉ như so sánh cốc nước muối với biển thôi."
     "Vì tận dụng nguồn gió, hay nói cách khác là sự chuyển động của không khí khi con tàu bay trong khí quyển nên gần như là nó sẽ chạy rất trơn tru mà chẳng tốn một chút nguyên liệu thêm nào nữa."
     "Nhưng khi ra ngoài không gian thì lại khác. Nhưng mà tôi có định ra ngoài không gian đâu, nên chắc như này là ổn."
-    main "Mà thôi. Giờ đi ngủ, chứ làm lao lực cả ngày trời khéo lại chết trước khi chết vì bệnh mất."
+    main "Mà thôi. Giờ đi ngủ, chứ làm lao lực hai ngày trời khéo lại chết trước khi chết vì bệnh mất."
     "Nghĩ thế nên tôi đi vào phòng rồi ngủ."
     scene black with dissovle
     pause(1)
@@ -138,12 +137,12 @@ label chap2_2:
     main "À phải rồi! Camera sau!"
     "Nhận thấy điều mình cần làm tiếp theo, tôi ấn nút mở cửa với ý định ra ngoài thực hiện tiếp công việc. Thế nhưng, bằng một cách nào đó, cái nút không hoạt động."
     main "Hả? Chuyện gì nữa đây, khi nãy vẫn còn đóng lại được mà?"
-    #play sound rầm
-    "Trong lúc tôi lấy hộp dụng cụ để kiểm tra lại lỗi, một âm thanh lớn phát ra ngay gần đây khiến tôi giật bắn mình và đập đầu vào phần trên của con tàu."
-    main "Ui! Đau!"
-    "Kế đến, một loạt âm thanh nghe như tiếng bước chân phát ra dồn dập trên đầu tôi. Ngửa cổ lên nhìn, đập vào mắt tôi chỉ có lớp vỏ kim loại của con tàu, chẳng thể nhìn thấy gì hơn."
-    "Và cho dù không có con tàu ở đây thì thứ tôi thấy cũng chỉ là lớp trần bê tông."
-    "Có ai đó đang ở trong nhà tôi, hơn nữa còn rất nhiều."
+        #play sound rầm
+        "Trong lúc tôi lấy hộp dụng cụ để kiểm tra lại lỗi, một âm thanh lớn phát ra ngay gần đây khiến tôi giật bắn mình và đập đầu vào phần trên của con tàu."
+        main "Ui! Đau!"
+        "Kế đến, một loạt âm thanh nghe như tiếng bước chân phát ra dồn dập trên đầu tôi. Ngửa cổ lên nhìn, đập vào mắt tôi chỉ có lớp vỏ kim loại của con tàu, chẳng thể nhìn thấy gì hơn."
+        "Và cho dù không có con tàu ở đây thì thứ tôi thấy cũng chỉ là lớp trần bê tông."
+        "Có ai đó đang ở trong nhà tôi, hơn nữa còn rất nhiều."
     main "Chết tiệt! Chuyện gì đang xảy ra ở trên đó vậy!"
     "Tôi không còn kiềm chế được bản thân, vội vàng ấn lia lịa vào cái nút mở cửa. Nhưng tất nhiên, không hoạt động thì có ấn cách mấy thì vẫn là không hoạt động."
     main "Cô ta còn ở trên đó mà!"
