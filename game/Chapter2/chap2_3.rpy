@@ -84,7 +84,7 @@ label chap2_3:
     "Kế đến, một loạt âm thanh nghe như tiếng bước chân phát ra dồn dập trên đầu tôi. Ngửa cổ lên nhìn, đập vào mắt tôi chỉ có lớp vỏ kim loại của con tàu, chẳng thể nhìn thấy gì hơn."
     "Và cho dù không có con tàu ở đây thì thứ tôi thấy cũng chỉ là lớp trần bê tông."
     "Có ai đó đang ở trong nhà tôi, hơn nữa còn rất nhiều."
-    #import game here
+    #import game here if fail jump route 4 route 4 = route 2
     main "Được rồi!"
     "Không để thời gian chết trôi đi, tôi vội dùng lực mở cánh cửa bằng tay chứ không thể chờ nó từ từ mở ra được nữa. Khẩn trương cầm lấy hộp thuốc và di chuyển cô gái kia vào trong con tàu, tôi ngồi vào và đóng cửa tàu lại."
     "Trong tình cảnh đó, tôi chẳng còn có thể quan tâm nổi mùi gì đang ở trước mũi, hay mình đang động vào chỗ nào của cô gái kia. Điều tôi cần là làm sao đưa cô ta lên tàu nhanh nhất có thể."
