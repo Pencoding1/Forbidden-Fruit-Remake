@@ -5,3 +5,4 @@ game/cache/**
 game/saves/**
 errors.txt
 traceback.txt
+.idea/**
