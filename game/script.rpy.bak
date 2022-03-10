@@ -12,7 +12,7 @@ label start:
         call chap2 from _call_chap2
     if change_chapter == 2:
         stop music
-        call chap2 from _call_chap2_1
+        call chap2
 
 return
 label gameover:
